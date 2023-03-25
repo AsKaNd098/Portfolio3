@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h2 class="logo">C O D E R 3 6 5</h2>
+
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="/Index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="/About.html" class="navbar-link about-link">About</a></li>
+                <li><a href="/Service.html" class="navbar-link service-link">Services</a></li>
+                 <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-button">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+    <!-- Hero Section starts -->
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">This is me</p>
+                    <h1 class="hero-heading">Coder 365</h1>
+                    <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt error quas reprehenderit, recusandae dicta dolor quis. Distinctio officia obcaecati rem!</p>
+                    <div>
+                        <a href="#" class="btn hireme-btn">Hire me</a>
+                    </div>
+                </div>
+                    <!-- hero section right side -->
+                <div class="section-hero-image">
+                    <img src="images/hero.jpeg" alt="hero image" class="hero-img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Bio Data Section Starts -->
+    <section class="section-biodata section">
+        <div class="container grid grid-two-column">
+            <div class="bio-image">
+                <img src="Images/biodata.jpeg" alt="biodata image">
+            </div>
+            <!-- bio right side -->
+            <div class="bio-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi molestias ratione numquam! Reprehenderit saepe nihil obcaecati accusamus tempore quos minus consequatur ut, suscipit blanditiis beatae facilis reiciendis exercitationem labore dolor.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam error enim aliquam quia officiis cum!</p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="bio-progress-bar bio-progress-1">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>Java Script</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>React</h3>
+                        <div class="bio-progress-bar bio-progress-5">
+                            <span>78%</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn bio-data-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section Starts -->
+    <section class="section-portfolio section " id="portfolio-section">
+        <div class="container">
+          <h2 class="common-heading">Latest works</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex
+            eos commodi provident tempore possimus, mollitia vero quas.
+          </p>
+        </div>
+  
+        <div class="p-btns">
+          <button class="btn p-btn " data-btn-num="1" >Portfolio</button>
+          <button class="btn p-btn " data-btn-num="2" >Single Page Website </button>
+          <button class="btn p-btn " data-btn-num="3" >React</button>
+        </div>
+        
+        <div class="container grid grid-three-column portfolio-images">
+          <div class="img-ovelay p-btn--1 p-btn--2" >
+            <img src="Images/folio/1.jpeg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+              <a href="https://askand123.github.io/personalportfolio/" target="_blank"  class="common-heading">Project 1</a>
+            </div>
+          </div>
+  
+          <div class="img-ovelay p-btn--1 p-btn--2">
+            <img src="Images/folio/4.jpeg" loading="lazy" alt="portfolio images " />
+            <div class="overlay">
+               <a href=" https://askand123.github.io/Portfolio2/" target="_blank"  class="common-heading">Project 2</a>
+            </div>
+          </div>
+  
+          <div class="img-ovelay p-btn--2">
+            <img src="Images/folio/3.jpeg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+               <a href="https://www.airbnb.co.in/" target="_blank"  class="common-heading">Project 3</a>
+            </div>
+          </div>
+          <div class="img-ovelay p-btn--2">
+            <img src="Images/folio/4.jpeg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+               <a href="https://www.airbnb.co.in/" target="_blank"  class="common-heading">Project 4</a>
+            </div>
+          </div>
+          <div class="img-ovelay p-btn--2">
+            <img src="Images/folio/5.jpeg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+               <a href="https://askand123.github.io/AskandResturant/" target="_blank"  class="common-heading">Project 5</a>
+            </div>
+          </div>
+          <div class="img-ovelay p-btn--3">
+            <img src="Images/folio/1.jpeg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+               <a href="https://askand123.github.io/textutils/" target="_blank"  class="common-heading">Project 6</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Work Counter section starts -->
+      <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="2000">0+</h2>
+                <p>Awards and Certificates</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="8000">0+</h2>
+                <p>Happy clients</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="10000">0+</h2>
+                <p>Project Completed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="6000">0+</h2>
+                <p>colaboration</p>
+            </div>
+        </div>
+      </section>
+      <!-- Our Serviced Section starts -->
+      <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil obcaecati tempore odio sequi amet voluptate?</p>
+        </div>
+        <!-- Serviced card -->
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, accusantium. Optio assumenda iste quod officia deleniti quo officiis, totam, provident harum fugit suscipit expedita ipsa?</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, accusantium. Optio assumenda iste quod officia deleniti quo officiis, totam, provident harum fugit suscipit expedita ipsa?</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="bug-sharp" class="service-icon"></ion-icon>
+                <h3>Programming</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, accusantium. Optio assumenda iste quod officia deleniti quo officiis, totam, provident harum fugit suscipit expedita ipsa?</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="videocam-sharp" class="service-icon"></ion-icon>
+                <h3>Video Editing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, accusantium. Optio assumenda iste quod officia deleniti quo officiis, totam, provident harum fugit suscipit expedita ipsa?</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="apps-sharp" class="service-icon"></ion-icon>
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, accusantium. Optio assumenda iste quod officia deleniti quo officiis, totam, provident harum fugit suscipit expedita ipsa?</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="create-sharp" class="service-icon"></ion-icon>
+                <h3>Graphic designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, accusantium. Optio assumenda iste quod officia deleniti quo officiis, totam, provident harum fugit suscipit expedita ipsa?</p>
+            </div>
+        </div>
+      </section>
+      <!-- Testimonial Section Starts -->
+      <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">Happy Client Works</h2>
+        </div>
+      <!-- swiper -->
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in vel alias quos minima quis molestiae est mollitia exercitationem error illum, sapiente, nostrum animi non a quisquam blanditiis asperiores tempora.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="Images/client/a.jpeg" alt="Client">
+                </figure>
+                <div class="client-data0details">
+                    <p>Client</p>
+                    <p>Entrepreneur</p>
+                </div>
+            </div>
+          </div>
+          <!-- Section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in vel alias quos minima quis molestiae est mollitia exercitationem error illum, sapiente, nostrum animi non a quisquam blanditiis asperiores tempora.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="Images/client/b.jpeg" alt="Client">
+                </figure>
+                <div class="client-data0details">
+                    <p>Client</p>
+                    <p>Entrepreneur</p>
+                </div>
+            </div>
+          </div>
+          <!-- Section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in vel alias quos minima quis molestiae est mollitia exercitationem error illum, sapiente, nostrum animi non a quisquam blanditiis asperiores tempora.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="Images/client/c.jpeg" alt="Client">
+                </figure>
+                <div class="client-data0details">
+                    <p>Client</p>
+                    <p>Entrepreneur</p>
+                </div>
+            </div>
+          </div>
+          <!-- Section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in vel alias quos minima quis molestiae est mollitia exercitationem error illum, sapiente, nostrum animi non a quisquam blanditiis asperiores tempora.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="Images/client/d.jpeg" alt="Client">
+                </figure>
+                <div class="client-data0details">
+                    <p>Client</p>
+                    <p>Entrepreneur</p>
+                </div>
+            </div>
+          </div>
+          <!-- Section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in vel alias quos minima quis molestiae est mollitia exercitationem error illum, sapiente, nostrum animi non a quisquam blanditiis asperiores tempora.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="Images/client/e.jpeg" alt="Client">
+                </figure>
+                <div class="client-data0details">
+                    <p>Client</p>
+                    <p>Entrepreneur</p>
+                </div>
+            </div>
+          </div>
+          <!-- Section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in vel alias quos minima quis molestiae est mollitia exercitationem error illum, sapiente, nostrum animi non a quisquam blanditiis asperiores tempora.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="Images/client/f.jpeg" alt="Client">
+                </figure>
+                <div class="client-data0details">
+                    <p>Client</p>
+                    <p>Entrepreneur</p>
+                </div>
+            </div>
+          </div>
+          <!-- Section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in vel alias quos minima quis molestiae est mollitia exercitationem error illum, sapiente, nostrum animi non a quisquam blanditiis asperiores tempora.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="Images/client/g.jpeg" alt="Client">
+                </figure>
+                <div class="client-data0details">
+                    <p>Client</p>
+                    <p>Entrepreneur</p>
+                </div>
+            </div>
+          </div>
+          <!-- Section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in vel alias quos minima quis molestiae est mollitia exercitationem error illum, sapiente, nostrum animi non a quisquam blanditiis asperiores tempora.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="Images/client/h.jpeg" alt="Client">
+                </figure>
+                <div class="client-data0details">
+                    <p>Client</p>
+                    <p>Entrepreneur</p>
+                </div>
+            </div>
+          </div>
+          <!-- Section end -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- Freelancing center -->
+    <section class="secrtion section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>Availabe</span> for Freelancing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim sed soluta quasi distinctio aspernatur ad delectus nulla laudantium omnis.</p>
+            <a href="/contact.html" class="btn">Hire Me</a>
+        </div>
+    </section>
+    <!-- Contact us Section starts -->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+            <div class="section-contact-main contact-container">
+                <form action="#">
+                    <div class="grid grid-two-column">
+                        <div>
+                            <label for="username"></label>
+                            <input type="text" name="username" id="username" placeholder="username">
+                        </div>
+                        <div>
+                            <label for="email"></label>
+                            <input type="text" name="email" id="email" placeholder="eg: demo@gmail.com">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject"></label>
+                        <input type="text" name="subject" placeholder="subject" id="subject">
+                    </div>
+                    <div>
+                        <label for="textarea"></label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" id="submit" class="btn" value="Send Message">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer Section starts -->
+    <footer class="section-footer section footer">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci, illum facere totam aliquid aut accusamus fuga temporibus et similique.
+                </p>
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">Home</a> 
+                    </li>
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Web Design</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Web Development</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Programming</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Video Editing</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">App Development</a>
+                        <li>
+                            <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                            <a href="#">Graphic designing</a>
+                        </li>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-address">
+                <h3>Have a Question</h3>
+                <address>
+                    <div>
+                        <p><span><ion-icon name="location-outline"></ion-icon></span> Lucknow, India</p>
+                    </div>
+                    <div>
+                        <p><span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+911112233344">+91 1112233344</a></p>
+                    </div>
+                    <div>
+                        <p><span><ion-icon name="mail-outline"></ion-icon></span> <a href="mailto:info.email@gmail.com">info.email@gmail.com</a></p>
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com" target="_blank"><ion-icon name="logo-instagram" class="icons"></ion-icon></a>
+                <a href="https://discord.gg" target="_blank"><ion-icon name="logo-discord" class="icons"></ion-icon></a>
+                <a href="https://www.youtube.com" target="_blank"><ion-icon name="logo-youtube" class="icons"></ion-icon></a>
+            </div>
+            <div class="f-credits">
+                <p>Copyright ©2022 All Right reserved | This website is made with ❤️ by Coder 365 | Askand Singh</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript sction starts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
